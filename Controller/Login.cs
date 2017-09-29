@@ -4,13 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+
 namespace Controller
 {
     public class Login
     {
         public void validarLogin(string cpf, string senha)
         {
-
+            
         }
     }
 }

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Model.DTO
 {
-    class UsuarioDTO
+    public class UsuarioDTO
     {
         public string cpf { get; set; }
         public string senha { get; set; }
