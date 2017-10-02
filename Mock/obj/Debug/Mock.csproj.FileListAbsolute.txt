@@ -3,5 +3,17 @@ F:\Git\TrabalhoDAD\TrabalhoDAD\Mock\bin\Debug\Mock.pdb
 F:\Git\TrabalhoDAD\TrabalhoDAD\Mock\obj\Debug\Mock.dll
 F:\Git\TrabalhoDAD\TrabalhoDAD\Mock\obj\Debug\Mock.pdb
 F:\Git\TrabalhoDAD\TrabalhoDAD\Mock\obj\Debug\Mock.csprojResolveAssemblyReference.cache
+F:\Git\TrabalhoDAD\TrabalhoDAD\Mock\bin\Debug\Mock.dll.config
+F:\Git\TrabalhoDAD\TrabalhoDAD\Mock\bin\Debug\DataAccess.dll
+F:\Git\TrabalhoDAD\TrabalhoDAD\Mock\bin\Debug\EntityFramework.dll
+F:\Git\TrabalhoDAD\TrabalhoDAD\Mock\bin\Debug\EntityFramework.SqlServer.dll
 F:\Git\TrabalhoDAD\TrabalhoDAD\Mock\bin\Debug\Model.dll
+F:\Git\TrabalhoDAD\TrabalhoDAD\Mock\bin\Debug\Services.dll
+F:\Git\TrabalhoDAD\TrabalhoDAD\Mock\bin\Debug\DataAccess.pdb
+F:\Git\TrabalhoDAD\TrabalhoDAD\Mock\bin\Debug\DataAccess.dll.config
 F:\Git\TrabalhoDAD\TrabalhoDAD\Mock\bin\Debug\Model.pdb
+F:\Git\TrabalhoDAD\TrabalhoDAD\Mock\bin\Debug\Model.dll.config
+F:\Git\TrabalhoDAD\TrabalhoDAD\Mock\bin\Debug\Services.pdb
+F:\Git\TrabalhoDAD\TrabalhoDAD\Mock\bin\Debug\Services.dll.config
+F:\Git\TrabalhoDAD\TrabalhoDAD\Mock\bin\Debug\EntityFramework.xml
+F:\Git\TrabalhoDAD\TrabalhoDAD\Mock\bin\Debug\EntityFramework.SqlServer.xml
