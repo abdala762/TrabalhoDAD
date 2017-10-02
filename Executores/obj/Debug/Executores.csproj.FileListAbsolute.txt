@@ -1,0 +1,7 @@
+F:\Git\TrabalhoDAD\TrabalhoDAD\Executores\bin\Debug\Executores.dll
+F:\Git\TrabalhoDAD\TrabalhoDAD\Executores\bin\Debug\Executores.pdb
+F:\Git\TrabalhoDAD\TrabalhoDAD\Executores\bin\Debug\Model.dll
+F:\Git\TrabalhoDAD\TrabalhoDAD\Executores\bin\Debug\Model.pdb
+F:\Git\TrabalhoDAD\TrabalhoDAD\Executores\obj\Debug\Executores.csprojResolveAssemblyReference.cache
+F:\Git\TrabalhoDAD\TrabalhoDAD\Executores\obj\Debug\Executores.dll
+F:\Git\TrabalhoDAD\TrabalhoDAD\Executores\obj\Debug\Executores.pdb

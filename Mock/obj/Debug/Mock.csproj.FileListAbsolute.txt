@@ -1,0 +1,7 @@
+F:\Git\TrabalhoDAD\TrabalhoDAD\Mock\bin\Debug\Mock.dll
+F:\Git\TrabalhoDAD\TrabalhoDAD\Mock\bin\Debug\Mock.pdb
+F:\Git\TrabalhoDAD\TrabalhoDAD\Mock\obj\Debug\Mock.dll
+F:\Git\TrabalhoDAD\TrabalhoDAD\Mock\obj\Debug\Mock.pdb
+F:\Git\TrabalhoDAD\TrabalhoDAD\Mock\obj\Debug\Mock.csprojResolveAssemblyReference.cache
+F:\Git\TrabalhoDAD\TrabalhoDAD\Mock\bin\Debug\Model.dll
+F:\Git\TrabalhoDAD\TrabalhoDAD\Mock\bin\Debug\Model.pdb
