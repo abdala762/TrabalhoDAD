@@ -1,7 +1,10 @@
-F:\Git\TrabalhoDAD\TrabalhoDAD\Model\bin\Debug\Model.dll
-F:\Git\TrabalhoDAD\TrabalhoDAD\Model\bin\Debug\Model.pdb
-F:\Git\TrabalhoDAD\TrabalhoDAD\Model\bin\Debug\Newtonsoft.Json.dll
-F:\Git\TrabalhoDAD\TrabalhoDAD\Model\bin\Debug\Newtonsoft.Json.xml
-F:\Git\TrabalhoDAD\TrabalhoDAD\Model\obj\Debug\Model.csprojResolveAssemblyReference.cache
-F:\Git\TrabalhoDAD\TrabalhoDAD\Model\obj\Debug\Model.dll
-F:\Git\TrabalhoDAD\TrabalhoDAD\Model\obj\Debug\Model.pdb
+C:\Users\Rafae\Desktop\ConnectorOracleSharepoint\Model\obj\Debug\Model.csprojResolveAssemblyReference.cache
+C:\Users\Rafae\Desktop\ConnectorOracleSharepoint\Model\bin\Debug\Model.dll.config
+C:\Users\Rafae\Desktop\ConnectorOracleSharepoint\Model\bin\Debug\Model.dll
+C:\Users\Rafae\Desktop\ConnectorOracleSharepoint\Model\bin\Debug\Model.pdb
+C:\Users\Rafae\Desktop\ConnectorOracleSharepoint\Model\bin\Debug\EntityFramework.dll
+C:\Users\Rafae\Desktop\ConnectorOracleSharepoint\Model\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Rafae\Desktop\ConnectorOracleSharepoint\Model\bin\Debug\EntityFramework.xml
+C:\Users\Rafae\Desktop\ConnectorOracleSharepoint\Model\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Rafae\Desktop\ConnectorOracleSharepoint\Model\obj\Debug\Model.dll
+C:\Users\Rafae\Desktop\ConnectorOracleSharepoint\Model\obj\Debug\Model.pdb

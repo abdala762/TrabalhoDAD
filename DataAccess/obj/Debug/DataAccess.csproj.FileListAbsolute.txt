@@ -1,0 +1,13 @@
+C:\Users\Rafae\Desktop\ConnectorOracleSharepoint\DataAccess\obj\Debug\DataAccess.csprojResolveAssemblyReference.cache
+C:\Users\Rafae\Desktop\ConnectorOracleSharepoint\DataAccess\bin\Debug\DataAccess.dll.config
+C:\Users\Rafae\Desktop\ConnectorOracleSharepoint\DataAccess\bin\Debug\DataAccess.dll
+C:\Users\Rafae\Desktop\ConnectorOracleSharepoint\DataAccess\bin\Debug\DataAccess.pdb
+C:\Users\Rafae\Desktop\ConnectorOracleSharepoint\DataAccess\bin\Debug\EntityFramework.dll
+C:\Users\Rafae\Desktop\ConnectorOracleSharepoint\DataAccess\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Rafae\Desktop\ConnectorOracleSharepoint\DataAccess\bin\Debug\Model.dll
+C:\Users\Rafae\Desktop\ConnectorOracleSharepoint\DataAccess\bin\Debug\Model.pdb
+C:\Users\Rafae\Desktop\ConnectorOracleSharepoint\DataAccess\bin\Debug\Model.dll.config
+C:\Users\Rafae\Desktop\ConnectorOracleSharepoint\DataAccess\bin\Debug\EntityFramework.xml
+C:\Users\Rafae\Desktop\ConnectorOracleSharepoint\DataAccess\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Rafae\Desktop\ConnectorOracleSharepoint\DataAccess\obj\Debug\DataAccess.dll
+C:\Users\Rafae\Desktop\ConnectorOracleSharepoint\DataAccess\obj\Debug\DataAccess.pdb
