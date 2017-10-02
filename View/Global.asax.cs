@@ -6,6 +6,7 @@ using System.Web.Mvc;
 using System.Web.Optimization;
 using System.Web.Routing;
 using Mock;
+using Services;
 
 namespace View
 {
@@ -18,12 +19,12 @@ namespace View
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
 
-           
+          
             /*
             //EXECUTAR APENAS UMA VEZ PRA PREENCHER ALGUNS USUARIOS NO BANCO
-            var mock = new ClasseMock();
-            mock.CriarUsuario();
-            //PRA TESTAR SE TEM USUARIO
+            var mock = new UsuarioMock();
+            mock.CriarUsuariosTeste();
+            //BUSCAR USUARIOS
             var result = mock.SelectUsuarios();
             */
         }
