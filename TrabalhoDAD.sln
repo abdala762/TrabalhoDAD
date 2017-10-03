@@ -7,11 +7,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mock", "Mock\Mock.csproj", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "View", "View\View.csproj", "{6BBB1761-B6ED-4314-984F-CFCD0A6FA1D2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccess", "C:\Users\Rafae\Desktop\ConnectorOracleSharepoint\DataAccess\DataAccess.csproj", "{2A32F614-AA07-4813-933D-ACEB655FC89C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccess", "DataAccess\DataAccess.csproj", "{2A32F614-AA07-4813-933D-ACEB655FC89C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Services", "C:\Users\Rafae\Desktop\ConnectorOracleSharepoint\Services\Services.csproj", "{B9702E65-69EB-40C4-99BF-6BE88F82EF91}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Model", "Model\Model.csproj", "{448D8206-4FA8-4749-9D1D-72CC8A6FC95F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Model", "C:\Users\Rafae\Desktop\ConnectorOracleSharepoint\Model\Model.csproj", "{448D8206-4FA8-4749-9D1D-72CC8A6FC95F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Services", "Services\Services.csproj", "{B9702E65-69EB-40C4-99BF-6BE88F82EF91}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -31,14 +31,14 @@ Global
 		{2A32F614-AA07-4813-933D-ACEB655FC89C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2A32F614-AA07-4813-933D-ACEB655FC89C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2A32F614-AA07-4813-933D-ACEB655FC89C}.Release|Any CPU.Build.0 = Release|Any CPU
-		{B9702E65-69EB-40C4-99BF-6BE88F82EF91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B9702E65-69EB-40C4-99BF-6BE88F82EF91}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B9702E65-69EB-40C4-99BF-6BE88F82EF91}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B9702E65-69EB-40C4-99BF-6BE88F82EF91}.Release|Any CPU.Build.0 = Release|Any CPU
 		{448D8206-4FA8-4749-9D1D-72CC8A6FC95F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{448D8206-4FA8-4749-9D1D-72CC8A6FC95F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{448D8206-4FA8-4749-9D1D-72CC8A6FC95F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{448D8206-4FA8-4749-9D1D-72CC8A6FC95F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9702E65-69EB-40C4-99BF-6BE88F82EF91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9702E65-69EB-40C4-99BF-6BE88F82EF91}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9702E65-69EB-40C4-99BF-6BE88F82EF91}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9702E65-69EB-40C4-99BF-6BE88F82EF91}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

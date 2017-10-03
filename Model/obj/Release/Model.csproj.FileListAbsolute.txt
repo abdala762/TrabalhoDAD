@@ -1,0 +1,9 @@
+F:\Git\TrabalhoDAD\TrabalhoDAD\Model\bin\Release\Model.dll.config
+F:\Git\TrabalhoDAD\TrabalhoDAD\Model\bin\Release\Model.dll
+F:\Git\TrabalhoDAD\TrabalhoDAD\Model\bin\Release\Model.pdb
+F:\Git\TrabalhoDAD\TrabalhoDAD\Model\bin\Release\EntityFramework.dll
+F:\Git\TrabalhoDAD\TrabalhoDAD\Model\bin\Release\EntityFramework.SqlServer.dll
+F:\Git\TrabalhoDAD\TrabalhoDAD\Model\bin\Release\EntityFramework.xml
+F:\Git\TrabalhoDAD\TrabalhoDAD\Model\bin\Release\EntityFramework.SqlServer.xml
+F:\Git\TrabalhoDAD\TrabalhoDAD\Model\obj\Release\Model.dll
+F:\Git\TrabalhoDAD\TrabalhoDAD\Model\obj\Release\Model.pdb

@@ -11,7 +11,7 @@ using Services;
 
 namespace Mock
 {
-    public class UsuarioMock : Services<Usuario>
+    public class UsuarioMock 
     {
         #region SCRIPT TABELA USUARIO
         /*SCRIPT PARA TABELA USUARIO

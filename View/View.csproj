@@ -213,14 +213,6 @@
       <Project>{5af486f8-31ef-4c1d-b2bb-6d079e342420}</Project>
       <Name>Mock</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\Rafae\Desktop\ConnectorOracleSharepoint\Model\Model.csproj">
-      <Project>{448d8206-4fa8-4749-9d1d-72cc8a6fc95f}</Project>
-      <Name>Model</Name>
-    </ProjectReference>
-    <ProjectReference Include="C:\Users\Rafae\Desktop\ConnectorOracleSharepoint\Services\Services.csproj">
-      <Project>{b9702e65-69eb-40c4-99bf-6be88f82ef91}</Project>
-      <Name>Services</Name>
-    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

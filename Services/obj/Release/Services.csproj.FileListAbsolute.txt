@@ -1,0 +1,16 @@
+F:\Git\TrabalhoDAD\TrabalhoDAD\Services\bin\Release\Services.dll.config
+F:\Git\TrabalhoDAD\TrabalhoDAD\Services\bin\Release\Services.dll
+F:\Git\TrabalhoDAD\TrabalhoDAD\Services\bin\Release\Services.pdb
+F:\Git\TrabalhoDAD\TrabalhoDAD\Services\bin\Release\DataAccess.dll
+F:\Git\TrabalhoDAD\TrabalhoDAD\Services\bin\Release\EntityFramework.dll
+F:\Git\TrabalhoDAD\TrabalhoDAD\Services\bin\Release\EntityFramework.SqlServer.dll
+F:\Git\TrabalhoDAD\TrabalhoDAD\Services\bin\Release\Model.dll
+F:\Git\TrabalhoDAD\TrabalhoDAD\Services\bin\Release\DataAccess.pdb
+F:\Git\TrabalhoDAD\TrabalhoDAD\Services\bin\Release\DataAccess.dll.config
+F:\Git\TrabalhoDAD\TrabalhoDAD\Services\bin\Release\Model.pdb
+F:\Git\TrabalhoDAD\TrabalhoDAD\Services\bin\Release\Model.dll.config
+F:\Git\TrabalhoDAD\TrabalhoDAD\Services\bin\Release\EntityFramework.xml
+F:\Git\TrabalhoDAD\TrabalhoDAD\Services\bin\Release\EntityFramework.SqlServer.xml
+F:\Git\TrabalhoDAD\TrabalhoDAD\Services\obj\Release\Services.csprojResolveAssemblyReference.cache
+F:\Git\TrabalhoDAD\TrabalhoDAD\Services\obj\Release\Services.dll
+F:\Git\TrabalhoDAD\TrabalhoDAD\Services\obj\Release\Services.pdb

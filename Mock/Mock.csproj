@@ -51,22 +51,18 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="C:\Users\Rafae\Desktop\ConnectorOracleSharepoint\DataAccess\DataAccess.csproj">
-      <Project>{2a32f614-aa07-4813-933d-aceb655fc89c}</Project>
-      <Name>DataAccess</Name>
-    </ProjectReference>
-    <ProjectReference Include="C:\Users\Rafae\Desktop\ConnectorOracleSharepoint\Model\Model.csproj">
+    <None Include="App.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Model\Model.csproj">
       <Project>{448d8206-4fa8-4749-9d1d-72cc8a6fc95f}</Project>
       <Name>Model</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\Rafae\Desktop\ConnectorOracleSharepoint\Services\Services.csproj">
+    <ProjectReference Include="..\Services\Services.csproj">
       <Project>{b9702e65-69eb-40c4-99bf-6be88f82ef91}</Project>
       <Name>Services</Name>
     </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="App.config" />
-    <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
