@@ -1,30 +1,52 @@
 ﻿using Model;
+using Model.DTO;
 using System;
-using System.Collections.Generic;
-using System.Configuration;
-using System.Data;
-using System.Data.SqlClient;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Services
 {
     public class UsuarioServices : Services<Usuario>
     {
-        public Usuario Buscar(string cpf)
+        public ResponseDTO Buscar(string cpf)
         {
-            return this.context.Usuarios.FirstOrDefault(x => x.cpf == cpf);
+            ResponseDTO response = new ResponseDTO();
+            try
+            {
+                response.Contents = this.context.Usuarios.FirstOrDefault(x => x.cpf == cpf);
+                response.Success = true;
+            }
+            catch (Exception ex)
+            {
+                response.Message = ex.Message;
+            }
+            return response;
         }
-        public void ValidarUsuario(string cpf, string senha)
+
+        public ResponseDTO BuscarTodos()
         {
-            var usuario = Buscar(cpf);
+            ResponseDTO response = new ResponseDTO();
+            try
+            {
+                response.Contents = this.context.Usuarios.ToList();
+                response.Success = true;
+            }
+            catch (Exception ex)
+            {
+                response.Message = ex.Message;
+            }
+            return response;
+        }
+
+        public ResponseDTO ValidarUsuario(string cpf, string senha)
+        {
+            ResponseDTO response = new ResponseDTO();
+
+            Usuario usuario = this.context.Usuarios.FirstOrDefault(x => x.cpf.Equals(cpf));
             if (usuario != null)
             {
                 if (usuario.bloqueado)
                 {
-                    //Nao deixar logar
-                    //********* IMPLEMENTAR MENSAGEM DE ERRO
+                    response.Message = "Número de tentativas excedido, seu usuário foi bloqueado";
                 }
                 else
                 {
@@ -35,6 +57,8 @@ namespace Services
                         if (usuario.tentativas >= 3)
                             usuario.bloqueado = true;
                         this.context.SaveChanges();
+
+                        response.Message = "Senha inválida";
                     }
                     else
                     {
@@ -45,63 +69,112 @@ namespace Services
                             this.context.SaveChanges();
                         }
 
-                        //Realizar login
-                        // ***** IMPLEMENTAR LOGIN *******
+                        response.Success = true;
                     }
                 }
             }
             else
             {
-                //usuario invalido
-                //******** IMPLEMENTAR MENSAGEM DE ERRO
+                response.Message = "Login inválido.";
             }
 
+            return response;
         }
 
-        public void NovoUsuario(string cpf, string senha)
+        public ResponseDTO NovoUsuario(string cpf, string senha)
         {
+            ResponseDTO response = new ResponseDTO();
             try
             {
-                if (Buscar(cpf) != null)
+                if (Buscar(cpf) == null)
                 {
-                    //****** MENSAGEM DE ERRO - USUARIO EXISTENTE
+                    response.Message = "Usuário inexistente";
                 }
                 else
                 {
                     Usuario u = new Usuario { cpf = cpf, senha = senha, tipo = "Associado", bloqueado = false, tentativas = 0 };
                     this.context.Usuarios.Add(u);
-                   
                     this.context.SaveChanges();
-                    //****** Usuario criado com sucesso
+                    response.Success = true;
                 }
             }
             catch (Exception ex)
             {
-                //****** IMPLEMENTAR ERRO AO CRIAR USUARIO
+                response.Message = ex.Message;
             }
+
+            return response;
         }
 
-        public void NovoUsuario(Usuario u)
+
+        public ResponseDTO NovoUsuario(Usuario u)
         {
+            ResponseDTO response = new ResponseDTO();
             try
             {
-                if (Buscar(u.cpf) != null)
+                if (Buscar(u.cpf) == null)
                 {
-                    //****** MENSAGEM DE ERRO - USUARIO EXISTENTE
+                    response.Message = "Usuário inexistente";
                 }
                 else
                 {
                     this.context.Usuarios.Add(u);
-
                     this.context.SaveChanges();
-                    //****** IMPLEMENTAR Usuario criado com sucesso
+
+                    response.Success = true;
                 }
             }
             catch (Exception ex)
             {
-                //****** IMPLEMENTAR ERRO AO CRIAR USUARIO
+                response.Message = ex.Message;
             }
+
+            return response;
+        }
+
+        public ResponseDTO EditarUsuario(Usuario u)
+        {
+            ResponseDTO response = new ResponseDTO();
+            try
+            {
+                if (Buscar(u.cpf) == null)
+                {
+                    response.Message = "Usuário inexistente";
+                }
+                else
+                {
+                    Usuario usuario = this.context.Usuarios.FirstOrDefault(x => x.cpf.Equals(u.cpf)); ;
+                    usuario.email = u.email;
+                    usuario.nome = u.nome;
+                    usuario.senha = u.senha;
+                    Update(usuario);
+                    this.context.SaveChanges();
+
+                    response.Success = true;
+                }
+            }
+            catch (Exception ex)
+            {
+                response.Message = ex.Message;
+            }
+            return response;
+        }
+
+        public ResponseDTO DeleteUsuario(int i)
+        {
+            ResponseDTO response = new ResponseDTO();
+            try
+            {
+                Delete(i);
+                response.Success = true;
+            }
+            catch (Exception ex)
+            {
+                response.Message = ex.Message;
+            }
+            return response;
         }
 
     }
+
 }

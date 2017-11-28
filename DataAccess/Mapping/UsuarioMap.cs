@@ -16,6 +16,8 @@ namespace DataAccess.Mapping
 
             this.HasKey(t => t.cpf);
 
+            this.Property(t => t.nome).HasColumnName("nome");
+            this.Property(t => t.email).HasColumnName("email");
             this.Property(t => t.cpf).HasColumnName("cpf");
             this.Property(t => t.senha).HasColumnName("senha");
             this.Property(t => t.tipo).HasColumnName("tipo");
