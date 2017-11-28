@@ -15,28 +15,19 @@ namespace Services
         /// conta : testedad39@gmail.com
         /// senha : dad@2017
         /// </summary>
-        public ResponseDTO EnviaMensagemEmail(string cpf, string remetente, string destinatario, string assunto, string corpo)
+        public ResponseDTO EnviaMensagemEmail(string destinatario, string assunto, string corpo)
         {
             ResponseDTO responseDTO = new ResponseDTO();
             try
             {
                 using (SmtpClient smtp = new SmtpClient())
                 {
-                    MailMessage mensagemEmail = new MailMessage(remetente, destinatario, assunto, corpo);
+                    MailMessage mensagemEmail = new MailMessage("testedad39@gmail.com", destinatario, assunto, corpo);
 
                     // Se o email não é validao retorna uma mensagem
                     if (ValidaEnderecoEmail(destinatario) == false)
                     {
                         responseDTO.Message = "Email do destinatário inválido!";
-                        return responseDTO;
-                    }
-
-                    Usuario usuario = this.context.Usuarios.FirstOrDefault(c => c.email.Equals(destinatario) && c.cpf.Equals(cpf));
-
-                    //valida se o usuario esta cadastrado na base
-                    if (usuario == null)
-                    {
-                        responseDTO.Message = "Cpf não cadastrado na base!";
                         return responseDTO;
                     }
 

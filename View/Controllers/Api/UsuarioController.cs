@@ -13,10 +13,12 @@ namespace View.Controllers.Api
     public class UsuarioController : ApiController
     {
         private UsuarioServices usuarioServices;
+        private MailServices mailServices;
 
         public UsuarioController()
         {
             this.usuarioServices = new UsuarioServices();
+            this.mailServices = new MailServices();
         }
 
         [HttpGet]
@@ -26,9 +28,9 @@ namespace View.Controllers.Api
         }
 
         [HttpGet]
-        public ResponseDTO Filter(string id)
+        public ResponseDTO Filter(string cpf)
         {
-            return this.usuarioServices.Buscar(id);
+            return this.usuarioServices.Buscar(cpf);
         }
 
         public ResponseDTO Authenticate([FromBody]Usuario usuario)
@@ -51,6 +53,22 @@ namespace View.Controllers.Api
         public ResponseDTO Delete(int id)
         {
             return this.usuarioServices.DeleteUsuario(id);
+        }
+
+        [HttpGet]
+        public ResponseDTO RememberPassword(string cpf)
+        {
+            Usuario usuario = (Usuario)this.usuarioServices.Buscar(cpf).Contents;
+            if(usuario == null)
+            {
+                ResponseDTO responseDTO = new ResponseDTO();
+                responseDTO.Message = "Cpf não cadastrado!";
+                return responseDTO;
+            }
+
+            return this.mailServices
+                .EnviaMensagemEmail(usuario.email, "Lembrete de senha", 
+                "Sua senha no SBG é " + usuario.senha + ", para sua segurança altere assim que acessar o portal.");
         }
     }
 }

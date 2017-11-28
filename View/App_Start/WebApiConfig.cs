@@ -14,7 +14,7 @@ namespace WebApi
             // Rotas da API da Web
             //config.MapHttpAttributeRoutes();
 
-            config.Routes.MapHttpRoute("DefaultApiWithAction", "Api/{controller}/{action}/{id}", new { id = RouteParameter.Optional });
+            config.Routes.MapHttpRoute("DefaultApiWithAction", "Api/{controller}/{action}/{cpf}", new { cpf = RouteParameter.Optional });
         }
     }
 }
